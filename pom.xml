@@ -31,6 +31,13 @@
 		</plugins>
 	</build>
 
+	<repositories>
+    <repository>
+        <id>my-local-repo</id>
+        <url>file://${basedir}/lib</url>
+    </repository>	
+</repositories>
+
 	<dependencies>
 		<!-- WWA -->
 		<dependency>
